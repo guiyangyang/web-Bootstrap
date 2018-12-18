@@ -1,0 +1,220 @@
+body{
+    font-family:'Microsoft Yahei',sans-serif;
+}
+.mai-icon{
+    background: rgb(64,210,177);
+    color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+/*导航*/
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 8px 0 rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #40d2b1;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-weight: bold;
+    font-size: 16px;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #129e7f;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40d2b1;
+    background-color: #40d2b1;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+/*home*/
+#home{
+    /*height: 500px;*/
+    width: 100%;
+    margin-top: 70px;
+    background: url("../images/home-bg.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 90px 0;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+/*home结束*/
+/*bbs*/
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+}
+#bbs .col-md-4{
+    padding: 15px;
+}
+#bbs .col-md-4:hover{
+
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#bbs a{
+    color: #212121;
+    text-decoration: none;
+}
+
+#bbs img{
+    margin: 0 auto;
+}
+#bbs h3{
+    font-weight: bold;
+}
+
+/*bbs结束*/
+/*html5+bootstrap*/
+#html5{
+    background: #f8f8f8;
+}
+#html5,#bootstrap{
+
+    padding: 80px 0;
+}
+#html5 h2,#bootstrap h2{
+    font-weight: bold;
+}
+#html5 p,#bootstrap p{
+    line-height: 25px;
+}
+
+/*html5+bootstrap结束*/
+/*course*/
+#course{
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+#course .col-md-3{
+    margin-bottom: 20px;
+}
+.cour{
+    background: #fff;
+}
+#course .cour img{
+    display: inline-block;
+}
+a.btn.btn-primary {
+    background: aliceblue;
+    color: #40d2b1;
+    border-color: #40d2b1;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 4px 30px;
+    transition: all 0.3s;
+}
+a.btn.btn-primary:hover{
+    color: #fff;
+    background: #40d2b1;
+}
+/*course结束*/
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app button.btn.btn-primary {
+    background: #40d2b1;
+    border-color: #40d2b1;
+    margin-top: 20px;
+    padding: 6px 26px;
+    transition: all 0.3s;
+}
+#app button.btn:hover{
+    background: #1ED27F;
+}
+
+/*app结束*/
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.png")no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    /*height: 500px;*/
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+    height: 50px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type='submit']{
+    background: #40d2b1;
+    color:#fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#contact input[type='submit']:hover{
+    background:   #1ED27F;
+}
+/*content结束*/
+/*footer*/
+#footer{
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+}
+/*footer结束*/
+
+
+
+
+
+
+
+
+
